@@ -75,7 +75,7 @@ function ThreadCard({
                                     alt='heart'
                                     width={24}
                                     height={24}
-                                    className='cursor-pointer object-contain'
+                                    className='cursor-not-allowed object-contain'
                                 />
                                 <Link href={`/thread/${id}`}>
                                     <Image
@@ -91,14 +91,14 @@ function ThreadCard({
                                     alt='heart'
                                     width={24}
                                     height={24}
-                                    className='cursor-pointer object-contain'
+                                    className='cursor-not-allowed object-contain'
                                 />
                                 <Image
                                     src='/assets/share.svg'
                                     alt='heart'
                                     width={24}
                                     height={24}
-                                    className='cursor-pointer object-contain'
+                                    className='cursor-not-allowed object-contain'
                                 />
                             </div>
 
